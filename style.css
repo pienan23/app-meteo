@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+.card{
+    color: #fff;
+    width: 90%;
+    max-width: 470px;
+    background:linear-gradient(130deg,#00feba,#5b548a);
+}
