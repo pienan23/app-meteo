@@ -10,7 +10,7 @@ body{
 .card{
     color: #fff;
     width: 90%;
-    max-width: 470px;
+    max-width: 400px;
     background:linear-gradient(130deg,#00feba,#5b548a);
     margin: 100px  auto;
     border-radius: 20px;
@@ -36,8 +36,9 @@ body{
   font-weight: bold;
   background-color: #ebfffc;
   margin-right: 16px;
-  padding: 10px 25px;
-  height: 60px;
+  padding: 10px 20px;
+  height: 27px;
+  text-transform: uppercase;
  
 
 }
@@ -55,6 +56,7 @@ body{
 
   .search button:hover {
     background-color: #00feba;
+    transition: ALL ease-out 2s;
   
   }
 
@@ -69,14 +71,15 @@ body{
   }
 
   .weather h1{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 500;
   }
 
   .weather h2{
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
   }
 
   .detail{
@@ -84,4 +87,22 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+  }
+
+  .detail .col{
+    display: flex;
+    align-items:center;
+    text-align: left;
+    
+  }
+
+  .detail .col img{
+    width: 40px;
+    margin-right: 10px;
+    
+  }
+
+  .humidity, .wind{
+    font-size: 26px;
+    margin-top: -10px;
   }
